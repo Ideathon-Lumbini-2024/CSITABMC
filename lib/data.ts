@@ -3,17 +3,17 @@ import type { Product } from "@/types/product"
 export const products: Product[] = [
     {
         id: 1,
-        slug: "organic-green-tea",
-        name: "Organic Green Tea",
+        slug: "ganja",
+        name: "Ganja ko Kapada",
         description: "Experience the pure essence of Nepal with our premium Organic Green Tea. Handpicked from the lush hills of Ilam, this exquisite tea offers a delicate flavor profile with notes of fresh grass and a subtle sweetness. Rich in antioxidants, it's not just a beverage, but a journey to the heart of the Himalayas.",
         price: 299,
         rating: 4.5,
         reviews: [
-            { id: 1, user: "Tea Lover", rating: 5, comment: "The best green tea I've ever tasted!", date: new Date("2024-02-15") },
+            { id: 1, user: "Purrna Bahadur", rating: 5, comment: "The best clothes i love it ", date: new Date("2024-02-15") },
             { id: 2, user: "Himalayan Explorer", rating: 4, comment: "Reminds me of my trek in Nepal. Authentic taste!", date: new Date("2024-01-20") }
         ],
         images: [
-            "/placeholder.svg?height=400&width=600",
+            "/images/ganja.jpg",
             "/placeholder.svg?height=400&width=600",
             "/placeholder.svg?height=400&width=600"
         ],
